@@ -19,10 +19,6 @@ body {
   height: 100%;
 }
 
-img {
-  width: 100%;
-}
-
 h1 {
   font-size: 30px;
   color: #f1f5f9;
@@ -47,8 +43,18 @@ main .content .photo-section {
   grid-area: photo;
 }
 
+main .content .photo-section img {
+  width: 60%;
+}
+
 main .content .text-section {
   grid-area: text;
+}
+
+.centralize-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media(max-width: 699px) {
@@ -64,6 +70,10 @@ main .content .text-section {
     grid-template-areas: "photo text";
     gap: 16px;
     margin: 16px;
+  }
+
+  main .content .photo-section img {
+    width: 100%;
   }
 }
 
