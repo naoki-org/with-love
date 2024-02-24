@@ -57,6 +57,11 @@ main .content .text-section {
   justify-content: center;
 }
 
+.justify-text-block {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 @media(max-width: 699px) {
   :root {
       font-size: 60%;
