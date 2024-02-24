@@ -27,6 +27,7 @@ h1 {
 span {
   color: #E2E8F0;
   font-size: 12px;
+  line-height: 14 px;
 
   display: flex;
   align-items: center;
@@ -34,7 +35,7 @@ span {
 }
 
 h1 + span, span + span {
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .centralize-block {
